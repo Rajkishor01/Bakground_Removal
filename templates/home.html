@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Remove Background - Upload</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #cfefff, #e9ccff);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      display: inline-block;
+    }
+    h1 {
+      color: #5d4b8a;
+    }
+    input[type="file"] {
+      margin: 20px 0;
+    }
+    input[type="submit"] {
+      background-color: #7d9acc;
+      border: none;
+      color: white;
+      padding: 10px 25px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Upload Image to Remove Background</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <input type="file" name="image" required><br>
+      <input type="submit" value="Remove Background">
+    </form>
+  </div>
+</body>
+</html>

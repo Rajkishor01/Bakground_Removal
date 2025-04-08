@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Background Removed</title>
+  <style>
+    body {
+      background: linear-gradient(to left, #cfefff, #e9ccff);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      display: inline-block;
+    }
+    h1 {
+      color: #5d4b8a;
+    }
+    img {
+      max-width: 400px;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #a974d6;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Here’s Your Image Without Background</h1>
+    <img src="{{ image_url }}" alt="Result Image">
+    <br>
+    <a href="/download">Download</a>
+    <a href="/">Upload Another</a>
+  </div>
+</body>
+</html>
