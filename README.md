@@ -18,7 +18,7 @@ This is a simple web application built with Flask that allows users to upload an
 
 ## 📂 Project Structure
 
-background-removal/ ├── app.py 
+# background-removal/ ├── app.py 
                     ├── background_removal.ipynb 
                     ├── static/ │ ├── uploads/ 
                                 │ └── results/ 
