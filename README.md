@@ -4,17 +4,18 @@ Project : remove background from image
 # 🧼 Background Removal Web App using U²-Net (Flask + PyTorch)
 
 This is a simple web application built with Flask that allows users to upload an image and get the background removed using a lightweight U²-Net (`u2netp`) deep learning model.
+# Steps to use the repository
 
 ---
-## 📥 Download U-2_Net Folder
+## Step 1: 📥 Download U-2-Net Folder
 
 To download the `U-2-Net` folder (without model weights):
 
 ```bash
 git clone https://github.com/xuebinqin/U-2-Net.git
-
-Download Pretrained Model (u2netp.pth):
-
+```
+## Step 2: Download Pretrained Model (u2netp.pth): 
+After downloading 'u2netp.pth' move it in side 'U-2-Net folder'. 
 
 ## 🚀 Features
 
@@ -25,7 +26,7 @@ Download Pretrained Model (u2netp.pth):
 
 ---
 
-## 📂 Project Structure
+## 📂 My Project Structure
            background-removal/ 
                     ├── app.py 
                     ├── background_removal.ipynb 
