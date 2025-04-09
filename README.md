@@ -5,7 +5,7 @@ Project : remove background from image
 
 This is a simple web application built with Flask that allows users to upload an image and get the background removed using a lightweight U²-Net (`u2netp`) deep learning model.
 # Steps to use the repository
-Remember to have the folder structure given below without the folder structure 'app.py' will not run properly.
+Remember to have the folder structure given below ,without the folder structure 'app.py' will not run properly.
 
 ---
 ## Step 1: 📥 Download U-2-Net Folder
